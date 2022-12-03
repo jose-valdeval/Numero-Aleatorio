@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Número Aleatório</title>
+	<link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+	<header>
+		<h1>Número Aleatório</h1>
+	</header>
+	<main>
+		<div id="saida">Selecione uma dificuldade</div>
+		<select name="dificuldade" id="dificuldade">
+			<option value="Fácil">Fácil</option>
+			<option value="Médio">Médio</option>
+			<option value="Difícil">Difícil</option>
+		</select>
+		<button id="selecionar">Selecionar</button>
+		<input id="entrada" type="number" placeholder="Selecione uma dificuldade">
+		<section id="buttons">
+			<button onclick="chute()">Chute</button>
+			<button onclick="reset()">reset</button>
+		</section>
+	</main>
+	<script type="text/javascript" src="./scripts/script.js"></script>
+</body>
+</html>

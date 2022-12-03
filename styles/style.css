@@ -1,0 +1,71 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+	background-color: #444;
+	color: #ccc;
+	font-family: sans-serif;
+	font-size: 20px;
+	max-width: 700px;
+}
+header{
+	margin-bottom: 10%;
+}
+h1{
+	font-size: 40px;
+}
+main{
+	width: 90%;
+	;
+}
+#saida{
+	text-align: center;
+	margin-bottom: 40px;
+}
+select{
+	padding: 10px 5%;
+	border-radius: 20px;
+	outline: none;
+	background-color: #eee;
+	font-size: 16px;
+	-webkit-appearance: none;
+}
+#selecionar{
+	padding: 10px 5%;
+	font-size: 16px;
+	float: right;
+}
+input{
+	width: 100%;
+	padding: 20px;
+	border-radius: 20px;
+	outline: none;
+	border: none;
+	font-size: 20px;
+	margin: 20px 0;
+	background-color: #eee;
+	appearance: none;
+	text-align: center;
+}
+input::-webkit-inner-spin-button{
+	-webkit-appearance: none;
+}
+#buttons{
+	display: flex;
+	justify-content: space-around;
+}
+button{
+	padding: 20px 20%;
+	border-radius: 20px;
+	border: none;
+	font-size: 20px;
+	background-color: #eee;
+}
